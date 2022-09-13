@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int w;
+    
+    printf("Width: ", w);
+    scanf("%d", &w);
+    int h;
+    
+    printf("Height: ", h);
+    scanf("%d", &h);
+    int area  = w * h ;
+    
+    printf("The area of the rectangle is: %d", area);
+
+    return 0;
